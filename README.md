@@ -26,4 +26,10 @@ source llm_env/bin/activate
 pip install -r requirement.txt
 ```
 
+Add the streamlit credentials inside the .streamlit->secrets.toml
+
 ### 3. Add the credentials for the OpenAI or MistralAI or any other LLM 
+
+### 4. To run the streamlit app run the below 
+
+steamlit run bot.py
